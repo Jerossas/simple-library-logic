@@ -59,7 +59,7 @@ public class Library {
                 .findFirst();
     }
 
-    List<Book> getAllBooks() {
+    public List<Book> getBooks() {
         return Collections.unmodifiableList(books);
     }
 }
